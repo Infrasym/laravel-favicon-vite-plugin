@@ -1,0 +1,90 @@
+{
+	"name": "@infrasym/laravel-favicon-vite-plugin",
+	"type": "module",
+	"version": "1.0.2",
+	"private": false,
+	"description": "A simple favicon generator for Laravel projects using Vite 3+.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/infrasym/laravel-favicon-vite-plugin.git"
+	},
+	"keywords": [
+		"vite-plugin",
+		"blade",
+		"laravel",
+		"favicon",
+		"icons",
+		"generator"
+	],
+	"author": "infrasym",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/infrasym/laravel-favicon-vite-plugin/issues"
+	},
+	"homepage": "https://github.com/infrasym/laravel-favicon-vite-plugin#readme",
+	"engines": {
+		"node": ">=v18.12.1"
+	},
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"require": "./dist/index.cjs",
+			"import": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		}
+	},
+	"files": [
+		"plugin",
+		"dist"
+	],
+	"scripts": {
+		"clean": "rimraf ./dist",
+		"test": "npm run build && vitest run --config ./test/vitest.config.ts --reporter verbose",
+		"build": "tsup plugin/index.ts --dts --format cjs,esm --clean",
+		"lint": "eslint \"plugin/**/*.ts\" --color",
+		"semantic-release": "semantic-release",
+		"husky": "husky install"
+	},
+	"dependencies": {
+		"debug": "^4.3.4",
+		"picocolors": "^1.0.0",
+		"sharp": "^0.31.3"
+	},
+	"devDependencies": {
+		"@semantic-release/changelog": "^6.0.2",
+		"@semantic-release/git": "^10.0.1",
+		"@semantic-release/github": "^8.0.7",
+		"@semantic-release/npm": "^9.0.2",
+		"@types/debug": "^4.1.7",
+		"@types/jest": "^29.4.0",
+		"@types/node": "^18.11.18",
+		"@typescript-eslint/eslint-plugin": "^5.48.1",
+		"@typescript-eslint/parser": "^5.48.1",
+		"esbuild": "^0.16.17",
+		"eslint": "^8.31.0",
+		"eslint-config-prettier": "^8.6.0",
+		"eslint-plugin-import": "^2.27.4",
+		"eslint-plugin-jest": "^27.2.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-promise": "^6.1.1",
+		"favicons": "^7.1.0",
+		"husky": "^8.0.3",
+		"jest": "^29.4.3",
+		"prettier": "^2.8.2",
+		"rimraf": "^4.1.2",
+		"semantic-release": "^20.0.2",
+		"semantic-release-license": "^1.0.3",
+		"semantic-release-npm-github-publish": "^1.5.4",
+		"tsup": "^6.6.3",
+		"tsx": "^3.12.2",
+		"typescript": "^4.9.4",
+		"vite": "^4.0.4",
+		"vitest": "^0.28.5"
+	},
+	"peerDependencies": {
+		"vite": ">=3"
+	}
+}

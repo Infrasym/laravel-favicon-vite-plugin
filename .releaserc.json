@@ -1,0 +1,36 @@
+{
+	"ci": false,
+	"dryRun": false,
+	"debug": false,
+	"extends": "semantic-release-npm-github-publish",
+	"branches": [
+        "+([0-9])?(.{+([0-9]),x}).x",
+        "master",
+        "next",
+        {
+            "name": "beta",
+            "prerelease": true
+        },
+        {
+            "name": "alpha",
+            "prerelease": true
+        }
+    ],
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"tag": "latest"
+	},
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        "semantic-release-license",
+		["@semantic-release/git", {
+			"pkgRoot": "dist",
+			"assets": ["LICENSE", "README.md", "dist/**"],
+			"message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+		}],
+		"@semantic-release/github",
+		"@semantic-release/npm"
+	]
+}
