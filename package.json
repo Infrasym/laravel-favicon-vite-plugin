@@ -1,7 +1,7 @@
 {
 	"name": "@infrasym/laravel-favicon-vite-plugin",
 	"type": "module",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"private": false,
 	"description": "A simple favicon generator for Laravel projects using Vite 3+.",
 	"repository": {
