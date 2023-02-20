@@ -5,7 +5,7 @@ This will do two things:
 1. Generate favicons for your application.
    1. By default, the favicons will be generated in the `public/favicons` folder.
 2. Generate a Blade template for your application.
-   1. By default, the Blade template will be generated in the `resources/views/partials/favicons.blade.php` file.
+   1. By default, the Blade template will be generated in the `resources/views/includes/favicons.blade.php` file.
 
 ## Installation
 Install with NPM:
@@ -26,7 +26,7 @@ Import the plugin to your `vite.config.js` file:
 ```js
 import favicons from '@infrasym/laravel-favicon-vite-plugin';
 ```
-Add the plugin to your `vite.config.js` file.
+Add the plugin to your `vite.config.js` file:
 
 ```js
 export default defineConfig({
@@ -63,6 +63,13 @@ export default defineConfig({
     ],
 });
 ```
+
+### Favicon Configuration
+The plugin is based on the [favicons](https://github.com/itgalaxy/favicons#usage) package. The `options.favicon` object
+accepts all the options that the `favicons` package accepts. 
+
+You can find the full list of parameters [here](https://github.com/itgalaxy/favicons#usage).
+
 ### Blade Template
 The Blade template will be generated in the `resources/views/includes/favicons.blade.php` file.
 You can now use this like so:
