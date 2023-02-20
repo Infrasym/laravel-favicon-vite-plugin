@@ -64,7 +64,7 @@ export default defineConfig({
 });
 ```
 ### Blade Template
-The Blade template will be generated in the `resources/views/partials/favicons.blade.php` file.
+The Blade template will be generated in the `resources/views/includes/favicons.blade.php` file.
 You can now use this like so:
 ```html
 <head>
