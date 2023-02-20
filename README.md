@@ -10,21 +10,21 @@ This will do two things:
 ## Installation
 Install with NPM:
 ```bash
-npm i @infrasym/laravel-vite-favicon-plugin -D
+npm i @infrasym/laravel-favicon-vite-plugin -D
 ```
 Yarn:
 ```bash
-yarn add @infrasym/laravel-vite-favicon-plugin -D
+yarn add @infrasym/laravel-favicon-vite-plugin -D
 ```
 PNPM:
 ```bash
-pnpm i @infrasym/laravel-vite-favicon-plugin -D
+pnpm i @infrasym/laravel-favicon-vite-plugin -D
 ```
 
 ## Usage
 Import the plugin to your `vite.config.js` file:
 ```js
-import favicons from '@infrasym/laravel-vite-favicon-plugin';
+import favicons from '@infrasym/laravel-favicon-vite-plugin';
 ```
 Add the plugin to your `vite.config.js` file.
 
@@ -92,8 +92,8 @@ Please make sure to update tests as appropriate.
 
 To set up the project, run the following commands:
 ```bash
-git clone https://github.com/Infrasym/laravel-vite-favicon-plugin.git
-cd laravel-vite-favicon-plugin
+git clone https://github.com/Infrasym/laravel-favicon-vite-plugin.git
+cd laravel-favicon-vite-plugin
 npm install
 npm run husky
 npm run build
