@@ -31,9 +31,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// node_modules/.pnpm/escape-html@1.0.3/node_modules/escape-html/index.js
+// node_modules/escape-html/index.js
 var require_escape_html = __commonJS({
-  "node_modules/.pnpm/escape-html@1.0.3/node_modules/escape-html/index.js"(exports, module) {
+  "node_modules/escape-html/index.js"(exports, module) {
     "use strict";
     var matchHtmlRegExp = /["'&<>]/;
     module.exports = escapeHtml2;
@@ -78,9 +78,9 @@ var require_escape_html = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xml2js@0.4.23/node_modules/xml2js/lib/defaults.js
+// node_modules/xml2js/lib/defaults.js
 var require_defaults = __commonJS({
-  "node_modules/.pnpm/xml2js@0.4.23/node_modules/xml2js/lib/defaults.js"(exports) {
+  "node_modules/xml2js/lib/defaults.js"(exports) {
     (function() {
       exports.defaults = {
         "0.1": {
@@ -154,9 +154,9 @@ var require_defaults = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/Utility.js
+// node_modules/xmlbuilder/lib/Utility.js
 var require_Utility = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/Utility.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/Utility.js"(exports, module) {
     (function() {
       var assign, getValue, isArray, isEmpty, isFunction, isObject, isPlainObject, slice = [].slice, hasProp = {}.hasOwnProperty;
       assign = function() {
@@ -227,9 +227,9 @@ var require_Utility = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDOMImplementation.js
+// node_modules/xmlbuilder/lib/XMLDOMImplementation.js
 var require_XMLDOMImplementation = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDOMImplementation.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLDOMImplementation.js"(exports, module) {
     (function() {
       var XMLDOMImplementation;
       module.exports = XMLDOMImplementation = function() {
@@ -256,9 +256,9 @@ var require_XMLDOMImplementation = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDOMErrorHandler.js
+// node_modules/xmlbuilder/lib/XMLDOMErrorHandler.js
 var require_XMLDOMErrorHandler = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDOMErrorHandler.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLDOMErrorHandler.js"(exports, module) {
     (function() {
       var XMLDOMErrorHandler;
       module.exports = XMLDOMErrorHandler = function() {
@@ -273,9 +273,9 @@ var require_XMLDOMErrorHandler = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDOMStringList.js
+// node_modules/xmlbuilder/lib/XMLDOMStringList.js
 var require_XMLDOMStringList = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDOMStringList.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLDOMStringList.js"(exports, module) {
     (function() {
       var XMLDOMStringList;
       module.exports = XMLDOMStringList = function() {
@@ -299,9 +299,9 @@ var require_XMLDOMStringList = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDOMConfiguration.js
+// node_modules/xmlbuilder/lib/XMLDOMConfiguration.js
 var require_XMLDOMConfiguration = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDOMConfiguration.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLDOMConfiguration.js"(exports, module) {
     (function() {
       var XMLDOMConfiguration, XMLDOMErrorHandler, XMLDOMStringList;
       XMLDOMErrorHandler = require_XMLDOMErrorHandler();
@@ -358,9 +358,9 @@ var require_XMLDOMConfiguration = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/NodeType.js
+// node_modules/xmlbuilder/lib/NodeType.js
 var require_NodeType = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/NodeType.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/NodeType.js"(exports, module) {
     (function() {
       module.exports = {
         Element: 1,
@@ -385,9 +385,9 @@ var require_NodeType = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLAttribute.js
+// node_modules/xmlbuilder/lib/XMLAttribute.js
 var require_XMLAttribute = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLAttribute.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLAttribute.js"(exports, module) {
     (function() {
       var NodeType, XMLAttribute, XMLNode;
       NodeType = require_NodeType();
@@ -481,9 +481,9 @@ var require_XMLAttribute = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLNamedNodeMap.js
+// node_modules/xmlbuilder/lib/XMLNamedNodeMap.js
 var require_XMLNamedNodeMap = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLNamedNodeMap.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLNamedNodeMap.js"(exports, module) {
     (function() {
       var XMLNamedNodeMap;
       module.exports = XMLNamedNodeMap = function() {
@@ -531,9 +531,9 @@ var require_XMLNamedNodeMap = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLElement.js
+// node_modules/xmlbuilder/lib/XMLElement.js
 var require_XMLElement = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLElement.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLElement.js"(exports, module) {
     (function() {
       var NodeType, XMLAttribute, XMLElement, XMLNamedNodeMap, XMLNode, getValue, isFunction, isObject, ref, extend = function(child, parent) {
         for (var key in parent) {
@@ -801,9 +801,9 @@ var require_XMLElement = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLCharacterData.js
+// node_modules/xmlbuilder/lib/XMLCharacterData.js
 var require_XMLCharacterData = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLCharacterData.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLCharacterData.js"(exports, module) {
     (function() {
       var XMLCharacterData, XMLNode, extend = function(child, parent) {
         for (var key in parent) {
@@ -879,9 +879,9 @@ var require_XMLCharacterData = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLCData.js
+// node_modules/xmlbuilder/lib/XMLCData.js
 var require_XMLCData = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLCData.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLCData.js"(exports, module) {
     (function() {
       var NodeType, XMLCData, XMLCharacterData, extend = function(child, parent) {
         for (var key in parent) {
@@ -921,9 +921,9 @@ var require_XMLCData = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLComment.js
+// node_modules/xmlbuilder/lib/XMLComment.js
 var require_XMLComment = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLComment.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLComment.js"(exports, module) {
     (function() {
       var NodeType, XMLCharacterData, XMLComment, extend = function(child, parent) {
         for (var key in parent) {
@@ -963,9 +963,9 @@ var require_XMLComment = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDeclaration.js
+// node_modules/xmlbuilder/lib/XMLDeclaration.js
 var require_XMLDeclaration = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDeclaration.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLDeclaration.js"(exports, module) {
     (function() {
       var NodeType, XMLDeclaration, XMLNode, isObject, extend = function(child, parent) {
         for (var key in parent) {
@@ -1012,9 +1012,9 @@ var require_XMLDeclaration = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDTDAttList.js
+// node_modules/xmlbuilder/lib/XMLDTDAttList.js
 var require_XMLDTDAttList = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDTDAttList.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLDTDAttList.js"(exports, module) {
     (function() {
       var NodeType, XMLDTDAttList, XMLNode, extend = function(child, parent) {
         for (var key in parent) {
@@ -1074,9 +1074,9 @@ var require_XMLDTDAttList = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDTDEntity.js
+// node_modules/xmlbuilder/lib/XMLDTDEntity.js
 var require_XMLDTDEntity = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDTDEntity.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLDTDEntity.js"(exports, module) {
     (function() {
       var NodeType, XMLDTDEntity, XMLNode, isObject, extend = function(child, parent) {
         for (var key in parent) {
@@ -1171,9 +1171,9 @@ var require_XMLDTDEntity = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDTDElement.js
+// node_modules/xmlbuilder/lib/XMLDTDElement.js
 var require_XMLDTDElement = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDTDElement.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLDTDElement.js"(exports, module) {
     (function() {
       var NodeType, XMLDTDElement, XMLNode, extend = function(child, parent) {
         for (var key in parent) {
@@ -1216,9 +1216,9 @@ var require_XMLDTDElement = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDTDNotation.js
+// node_modules/xmlbuilder/lib/XMLDTDNotation.js
 var require_XMLDTDNotation = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDTDNotation.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLDTDNotation.js"(exports, module) {
     (function() {
       var NodeType, XMLDTDNotation, XMLNode, extend = function(child, parent) {
         for (var key in parent) {
@@ -1273,9 +1273,9 @@ var require_XMLDTDNotation = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDocType.js
+// node_modules/xmlbuilder/lib/XMLDocType.js
 var require_XMLDocType = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDocType.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLDocType.js"(exports, module) {
     (function() {
       var NodeType, XMLDTDAttList, XMLDTDElement, XMLDTDEntity, XMLDTDNotation, XMLDocType, XMLNamedNodeMap, XMLNode, isObject, extend = function(child, parent) {
         for (var key in parent) {
@@ -1443,9 +1443,9 @@ var require_XMLDocType = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLRaw.js
+// node_modules/xmlbuilder/lib/XMLRaw.js
 var require_XMLRaw = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLRaw.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLRaw.js"(exports, module) {
     (function() {
       var NodeType, XMLNode, XMLRaw, extend = function(child, parent) {
         for (var key in parent) {
@@ -1484,9 +1484,9 @@ var require_XMLRaw = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLText.js
+// node_modules/xmlbuilder/lib/XMLText.js
 var require_XMLText = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLText.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLText.js"(exports, module) {
     (function() {
       var NodeType, XMLCharacterData, XMLText, extend = function(child, parent) {
         for (var key in parent) {
@@ -1555,9 +1555,9 @@ var require_XMLText = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLProcessingInstruction.js
+// node_modules/xmlbuilder/lib/XMLProcessingInstruction.js
 var require_XMLProcessingInstruction = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLProcessingInstruction.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLProcessingInstruction.js"(exports, module) {
     (function() {
       var NodeType, XMLCharacterData, XMLProcessingInstruction, extend = function(child, parent) {
         for (var key in parent) {
@@ -1609,9 +1609,9 @@ var require_XMLProcessingInstruction = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDummy.js
+// node_modules/xmlbuilder/lib/XMLDummy.js
 var require_XMLDummy = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDummy.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLDummy.js"(exports, module) {
     (function() {
       var NodeType, XMLDummy, XMLNode, extend = function(child, parent) {
         for (var key in parent) {
@@ -1646,9 +1646,9 @@ var require_XMLDummy = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLNodeList.js
+// node_modules/xmlbuilder/lib/XMLNodeList.js
 var require_XMLNodeList = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLNodeList.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLNodeList.js"(exports, module) {
     (function() {
       var XMLNodeList;
       module.exports = XMLNodeList = function() {
@@ -1672,9 +1672,9 @@ var require_XMLNodeList = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/DocumentPosition.js
+// node_modules/xmlbuilder/lib/DocumentPosition.js
 var require_DocumentPosition = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/DocumentPosition.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/DocumentPosition.js"(exports, module) {
     (function() {
       module.exports = {
         Disconnected: 1,
@@ -1688,9 +1688,9 @@ var require_DocumentPosition = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLNode.js
+// node_modules/xmlbuilder/lib/XMLNode.js
 var require_XMLNode = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLNode.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLNode.js"(exports, module) {
     (function() {
       var DocumentPosition, NodeType, XMLCData, XMLComment, XMLDeclaration, XMLDocType, XMLDummy, XMLElement, XMLNamedNodeMap, XMLNode, XMLNodeList, XMLProcessingInstruction, XMLRaw, XMLText, getValue, isEmpty, isFunction, isObject, ref1, hasProp = {}.hasOwnProperty;
       ref1 = require_Utility(), isObject = ref1.isObject, isFunction = ref1.isFunction, isEmpty = ref1.isEmpty, getValue = ref1.getValue;
@@ -2383,9 +2383,9 @@ var require_XMLNode = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLStringifier.js
+// node_modules/xmlbuilder/lib/XMLStringifier.js
 var require_XMLStringifier = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLStringifier.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLStringifier.js"(exports, module) {
     (function() {
       var XMLStringifier, bind = function(fn, me) {
         return function() {
@@ -2599,9 +2599,9 @@ var require_XMLStringifier = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/WriterState.js
+// node_modules/xmlbuilder/lib/WriterState.js
 var require_WriterState = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/WriterState.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/WriterState.js"(exports, module) {
     (function() {
       module.exports = {
         None: 0,
@@ -2613,9 +2613,9 @@ var require_WriterState = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLWriterBase.js
+// node_modules/xmlbuilder/lib/XMLWriterBase.js
 var require_XMLWriterBase = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLWriterBase.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLWriterBase.js"(exports, module) {
     (function() {
       var NodeType, WriterState, XMLCData, XMLComment, XMLDTDAttList, XMLDTDElement, XMLDTDEntity, XMLDTDNotation, XMLDeclaration, XMLDocType, XMLDummy, XMLElement, XMLProcessingInstruction, XMLRaw, XMLText, XMLWriterBase, assign, hasProp = {}.hasOwnProperty;
       assign = require_Utility().assign;
@@ -3010,9 +3010,9 @@ var require_XMLWriterBase = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLStringWriter.js
+// node_modules/xmlbuilder/lib/XMLStringWriter.js
 var require_XMLStringWriter = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLStringWriter.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLStringWriter.js"(exports, module) {
     (function() {
       var XMLStringWriter, XMLWriterBase, extend = function(child, parent) {
         for (var key in parent) {
@@ -3053,9 +3053,9 @@ var require_XMLStringWriter = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDocument.js
+// node_modules/xmlbuilder/lib/XMLDocument.js
 var require_XMLDocument = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDocument.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLDocument.js"(exports, module) {
     (function() {
       var NodeType, XMLDOMConfiguration, XMLDOMImplementation, XMLDocument, XMLNode, XMLStringWriter, XMLStringifier, isPlainObject, extend = function(child, parent) {
         for (var key in parent) {
@@ -3261,9 +3261,9 @@ var require_XMLDocument = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDocumentCB.js
+// node_modules/xmlbuilder/lib/XMLDocumentCB.js
 var require_XMLDocumentCB = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLDocumentCB.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLDocumentCB.js"(exports, module) {
     (function() {
       var NodeType, WriterState, XMLAttribute, XMLCData, XMLComment, XMLDTDAttList, XMLDTDElement, XMLDTDEntity, XMLDTDNotation, XMLDeclaration, XMLDocType, XMLDocument, XMLDocumentCB, XMLElement, XMLProcessingInstruction, XMLRaw, XMLStringWriter, XMLStringifier, XMLText, getValue, isFunction, isObject, isPlainObject, ref, hasProp = {}.hasOwnProperty;
       ref = require_Utility(), isObject = ref.isObject, isFunction = ref.isFunction, isPlainObject = ref.isPlainObject, getValue = ref.getValue;
@@ -3731,9 +3731,9 @@ var require_XMLDocumentCB = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLStreamWriter.js
+// node_modules/xmlbuilder/lib/XMLStreamWriter.js
 var require_XMLStreamWriter = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/XMLStreamWriter.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/XMLStreamWriter.js"(exports, module) {
     (function() {
       var NodeType, WriterState, XMLStreamWriter, XMLWriterBase, extend = function(child, parent) {
         for (var key in parent) {
@@ -3900,9 +3900,9 @@ var require_XMLStreamWriter = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/index.js
+// node_modules/xmlbuilder/lib/index.js
 var require_lib = __commonJS({
-  "node_modules/.pnpm/xmlbuilder@11.0.1/node_modules/xmlbuilder/lib/index.js"(exports, module) {
+  "node_modules/xmlbuilder/lib/index.js"(exports, module) {
     (function() {
       var NodeType, WriterState, XMLDOMImplementation, XMLDocument, XMLDocumentCB, XMLStreamWriter, XMLStringWriter, assign, isFunction, ref;
       ref = require_Utility(), assign = ref.assign, isFunction = ref.isFunction;
@@ -3954,9 +3954,9 @@ var require_lib = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xml2js@0.4.23/node_modules/xml2js/lib/builder.js
+// node_modules/xml2js/lib/builder.js
 var require_builder = __commonJS({
-  "node_modules/.pnpm/xml2js@0.4.23/node_modules/xml2js/lib/builder.js"(exports) {
+  "node_modules/xml2js/lib/builder.js"(exports) {
     (function() {
       "use strict";
       var builder, defaults, escapeCDATA, requiresCDATA, wrapCDATA, hasProp = {}.hasOwnProperty;
@@ -4080,9 +4080,9 @@ var require_builder = __commonJS({
   }
 });
 
-// node_modules/.pnpm/sax@1.2.4/node_modules/sax/lib/sax.js
+// node_modules/sax/lib/sax.js
 var require_sax = __commonJS({
-  "node_modules/.pnpm/sax@1.2.4/node_modules/sax/lib/sax.js"(exports) {
+  "node_modules/sax/lib/sax.js"(exports) {
     (function(sax) {
       sax.parser = function(strict, opt) {
         return new SAXParser(strict, opt);
@@ -5521,9 +5521,9 @@ var require_sax = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xml2js@0.4.23/node_modules/xml2js/lib/bom.js
+// node_modules/xml2js/lib/bom.js
 var require_bom = __commonJS({
-  "node_modules/.pnpm/xml2js@0.4.23/node_modules/xml2js/lib/bom.js"(exports) {
+  "node_modules/xml2js/lib/bom.js"(exports) {
     (function() {
       "use strict";
       exports.stripBOM = function(str) {
@@ -5537,9 +5537,9 @@ var require_bom = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xml2js@0.4.23/node_modules/xml2js/lib/processors.js
+// node_modules/xml2js/lib/processors.js
 var require_processors = __commonJS({
-  "node_modules/.pnpm/xml2js@0.4.23/node_modules/xml2js/lib/processors.js"(exports) {
+  "node_modules/xml2js/lib/processors.js"(exports) {
     (function() {
       "use strict";
       var prefixMatch;
@@ -5569,9 +5569,9 @@ var require_processors = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xml2js@0.4.23/node_modules/xml2js/lib/parser.js
+// node_modules/xml2js/lib/parser.js
 var require_parser = __commonJS({
-  "node_modules/.pnpm/xml2js@0.4.23/node_modules/xml2js/lib/parser.js"(exports) {
+  "node_modules/xml2js/lib/parser.js"(exports) {
     (function() {
       "use strict";
       var bom, defaults, events, isEmpty, processItem, processors, sax, setImmediate, bind = function(fn, me) {
@@ -5952,9 +5952,9 @@ var require_parser = __commonJS({
   }
 });
 
-// node_modules/.pnpm/xml2js@0.4.23/node_modules/xml2js/lib/xml2js.js
+// node_modules/xml2js/lib/xml2js.js
 var require_xml2js = __commonJS({
-  "node_modules/.pnpm/xml2js@0.4.23/node_modules/xml2js/lib/xml2js.js"(exports) {
+  "node_modules/xml2js/lib/xml2js.js"(exports) {
     (function() {
       "use strict";
       var builder, defaults, parser, processors, extend = function(child, parent) {
@@ -5991,7 +5991,7 @@ var require_xml2js = __commonJS({
   }
 });
 
-// node_modules/.pnpm/favicons@7.1.0/node_modules/favicons/dist/index.mjs
+// node_modules/favicons/dist/index.mjs
 var import_escape_html = __toESM(require_escape_html(), 1);
 var import_xml2js = __toESM(require_xml2js(), 1);
 var _path = require('path'); var _path2 = _interopRequireDefault(_path);
